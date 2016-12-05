@@ -37,7 +37,8 @@ var Weather = React.createClass({
 
     return (
       <div>
-        <h3>Weather Component</h3>
+        <br/><br/>
+        <h3>Cauta temperatura dupa oras:</h3>
         <WeatherInput onSearch={this.handleSearch}/>
         {renderMessage()}
       </div>
