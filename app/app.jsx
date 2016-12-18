@@ -1,9 +1,9 @@
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-
-// -------------------------- RENDER --------------------------
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
+// -------------------------- RENDER --------------------------
+
 var Main = require('Main');
 var Weather = require('Weather');
 var About = require('About');
