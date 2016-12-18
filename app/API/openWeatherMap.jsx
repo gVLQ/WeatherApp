@@ -14,7 +14,7 @@ module.exports = {
       if(response.data.cod && response.data.message) {
         throw new Error(response.data.message);
       } else {
-        return temperatura+" grade in "+oras+", "+tara;
+        return temperatura+" degrees in "+oras+", "+tara;
       }
     },function(response){
       throw new Error(response.data.message);
